@@ -1,0 +1,132 @@
+body {
+	background-color: #273238;
+	font-family: Poppins;
+}
+h1, h3 {
+	color: white;
+	font-weight: 400;
+}
+
+header {
+	display: flex;
+	padding: 0 15px;
+	max-width: 800px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.oscar1 {
+	width: 90px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+ul {list-style: none}
+
+li {
+	display: inline;
+	padding: 15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.hero {
+	background-image: url("./chicago7.jpg");
+	background-size: cover;
+	height: 420px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	background-color: #E7CD83;
+	border: 2px solid white;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.button:hover {
+	background-color: white;
+	color: #E7CD83;
+	border: 2px solid #E7CD83;
+}			
+
+.card-container {
+	max-width: 800px;
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	height: 300px;
+	width: 230px;
+	margin: 10px;
+}
+
+.card-im {
+	width: 100%;
+}
+
+/*// MODAL STARTS HERE //*/
+
+.bg-modal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+.modal-content {
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.oscar2 {
+	width: 100px;
+	border-radius: 80px;
+}
+
+input {
+	width: 50%;
+	display: block;
+	margin: 15px auto;
+	padding: 8px;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
